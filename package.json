@@ -1,0 +1,24 @@
+{
+  "name": "api-bookmarker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudassirgithub/api-bookmarker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mudassirgithub/api-bookmarker/issues"
+  },
+  "homepage": "https://github.com/mudassirgithub/api-bookmarker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
