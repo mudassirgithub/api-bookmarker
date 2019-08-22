@@ -1,8 +1,11 @@
 var express = require('express');
 var port = process.env.PORT || 9000;
 var unfurled = require('unfurled');
+var cors = require('cors');
 
 var app = express();
+
+app.use(cors());
 
 app.get('/', function (req, res) {
     res.send(JSON.stringify({ Hello: 'This is api-bookmarker app' }));
